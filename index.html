@@ -1,33 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- Hoja Javascript -->
-    <script src="assets/js/script.js"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b4a992d77b.js" crossorigin="anonymous"></script>
-    <!-- Hoja de estilo CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Hoja Javascript -->
+  <script src="assets/js/script.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/b4a992d77b.js" crossorigin="anonymous"></script>
+  <!-- Hoja de estilo CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <header>
+  <header>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-dark">
+          <h1 class="d-block w-100 text-light text-center">ALEJANDRO STUARDO</h1>
+        </div>
+        <div class="carousel-item bg-dark">
+          <h1 class="d-block w-100 text-light text-center">INGENIERO COMERCIAL</h1>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="false"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
 
-    </header>
+  <nav class="navbar bg-dark-subtle">
+    <form class="container-fluid justify-content-end">
+      <button class="btn btn-outline-danger me-2" type="button">Portafolio</button>
+      <button class="btn btn-md btn-outline-dark" type="button">Contacto</button>
+    </form>
+  </nav>
 
-    <main>
+  <main>
+    <h2 id="start">Ingeniero Comercial - Concepción - BI
+      <br>
+      (+569)79604037 alejandro.stuardoalarcon@gmail.com
+    </h2>
+    <hr>
+    <!-- SECCION EXPERIENCIA LABORAL-->
+    <section class="experiencia container-fluid">
+      <h3 class="title text-danger">EXPERIENCIA LABORAL</h3>
+      <!-- primer cargo -->
+      <div class="accordion" id="ccordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              <strong> Sub Administrador </strong> &nbsp;| 09/2016 &nbsp;<em>a la actualidad</em>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            data-bs-parent="#panelsStayOpen-collapseOne">
+            <div class="accordion-body">
+              <strong>A&V Administración Inmobiliaria - Concepción</strong>
+              <ul>
+                <li>Gerente de finanzas y planificación de la operación de edificios. Responsable del presupuesto y
+                  gestión de gastos para el mantenimiento de edificios y proyectos de obra, supervisando un equipo de
+                  40 trabajadores directos y subcontratados de mantenimiento y reparación.</li>
+                <li>Mejora de los servicios al cliente con la implementación y mantenimiento de
+                  sistema de gestión de relaciones (CRM) ComunidadFeliz.</li>
+                <li> Aprendió rápidamente nuevas habilidades y las aplicó a las tareas diarias, mejorando la eficiencia
+                  y
+                  productividad.</li>
+                <li>Realización de tareas día a día con precisión y eficiencia.</li>
+                <li>Respeto demostrado, amabilidad y disposición para ayudar donde sea necesario.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- segundo cargo -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              <strong> Gerente General </strong> &nbsp;| 03/2016 al 03/2017
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            data-bs-parent="#panelsStayOpen-collapseTwo">
+            <div class="accordion-body">
+              <ul>
+                <li>Implementaciones presupuestarias administradas, revisiones de empleados, capacitación, horarios,
+                  contratos y negociaciones.</li>
+                <li>Desarrollo y mantenimiento de relaciones con clientes y proveedores a través de cuentas desarrollo.
+                </li>
+                <li>Eficiencia maximizada al entrenar y asesorar al personal sobre los principios de gestión,
+                  prácticas de la industria, procedimientos de la empresa y sistemas tecnológicos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- tercer cargo -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              <strong> Asistente Comercial </strong> &nbsp;| 01/2009 al 03/2016
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            data-bs-parent="#panelsStayOpen-collapseThree">
+            <div class="accordion-body">
+              <ul>
+                <li>Creación, edición y reenvío de hojas de cálculo y documentos.</li>
+                <li>Diseñé un sistema de archivo optimizado para la oficina para maximizar la eficiencia.</li>
+                <li>Mantener el inventario de suministros de oficina y pedir nuevos suministros cuando sea necesario.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- cuarto cargo -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour">
+              <strong> Profesor asistente </strong> &nbsp;| 03/2011 al 12/2014
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+            data-bs-parent="#panelsStayOpen-collapseFour">
+            <div class="accordion-body">
+              <ul>
+                <li>Ayudó a los maestros con la gestión del aula y la coordinación de documentos para mantener un
+                  ambiente de aprendizaje positivo.</li>
+                <li>Supervisó a los estudiantes en el salón de clases y áreas comunes para monitorear, hacer cumplir las
+                  reglas y apoyar
+                  maestro principal</li>
+                <li>Impartió asignaturas de economía a las carreras de ingeniería comercial y derecho</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    </main>
+    </section>
 
-    <footer>
+    <!-- SECCION EDUCACION -->
+    <section class="educacion container-fluid">
+      <h3 class="title text-danger">EDUCACIÓN</h3>
+      <!-- primera carrera -->
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseFive">
+              MBA &nbsp;| Universidad Nacional Andrés Bello
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong> Administración de Empresas, 01/2017</strong> <br>
+              Tesis: Racionalidad limitada: Sobreconsumo en los supermercados e hipermercados del Gran Concepción
+            </div>
+          </div>
+        </div>
+        <!-- segunda carrera -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSix">
+              Ingeniería Comercial con mención en Economía &nbsp;| Universidad Nacional Andrés Bello
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Economía, 07/2014</strong> <br>
+              Tesis: Análisis financiero de la banca Chilena en los últimos diez años
+            </div>
+          </div>
+        </div>
+        <!-- tercera carrera -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSeven">
+              Desarrollo Full Stack JavaScript &nbsp;| Academia Desafio Latam
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Programación Web, cursando</strong> <br>
+              Cursando primer módulo del programa
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </footer>
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- SECCION DE HABILIDADES -->
+    <section class="habilidades container-fluid">
+      <h3 class="title text-danger">HABILIDADES</h3>
+      <div class="container text-start">
+        <div class="row g-2">
+          <div class="col-6">
+            <div class=""><i class="fa-solid fa-greater-than fa-xs" style="color: #ab0e03;"></i> Flexibilidad y
+              adaptabilidad</div>
+          </div>
+          <div class="col-6">
+            <div class=""><i class="fa-solid fa-greater-than fa-xs" style="color: #ab0e03;"></i> Colaboración</div>
+          </div>
+          <div class="col-6">
+            <div class=""><i class="fa-solid fa-greater-than fa-xs" style="color: #ab0e03;"></i> Resolución de
+              conflictos</div>
+          </div>
+          <div class="col-6">
+            <div class=""><i class="fa-solid fa-greater-than fa-xs" style="color: #ab0e03;"></i> Microsoft Office</div>
+          </div>
+          <div class="col-6">
+            <div class=""><i class="fa-solid fa-greater-than fa-xs" style="color: #ab0e03;"></i> Administración</div>
+          </div>
+          <div class="col-6">
+            <div class=""><i class="fa-solid fa-greater-than fa-xs" style="color: #ab0e03;"></i> Programación</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION DE IDIOMAS -->
+    <section class="idiomas container-fluid">
+      <h3 class="title text-danger">IDIOMAS</h3>
+      <div class="container-fluid row">
+      <div class="card mb-3 col-6" style="max-width: 540px; border: 0;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/español.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Español</h5>
+              <p class="card-text">Nativo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 col-6" style="max-width: 540px; border: 0;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="assets/img/english.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Inglés</h5>
+              <p class="card-text">Intermedio (B1)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark-subtle">
+    <p class="text-center">Alejandro Stuardo 2023. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
