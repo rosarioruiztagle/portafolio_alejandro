@@ -3,30 +3,50 @@
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
 #start {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
 }
+a{
+    color: #fff;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
 main {
     padding-left: 3rem;
 }
+
 main h3 {
     font-weight: bold;
     margin-bottom: 3rem;
 }
+
 .experiencia{
     padding-top: 2rem;
 }
+
 .educacion{
-    padding-top: 3rem}
+    padding-top: 3rem
+}
+
 .habilidades{
-    padding-top: 3rem}
+    padding-top: 3rem
+}
+
 .idiomas{
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
+
 footer{
     height: 100px;
 }
