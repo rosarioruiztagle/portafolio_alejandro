@@ -48,5 +48,10 @@ main h3 {
 }
 
 footer{
-    height: 100px;
+    height: 110px;
 }
+
+.redes {
+    display: inline;
+}
+
