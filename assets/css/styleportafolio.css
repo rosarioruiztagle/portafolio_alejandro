@@ -24,6 +24,10 @@ main h3 {
     margin-top: 3rem;
     }
 
+.descripcion {
+  width: 96%;
+}
+
 @keyframes show {
   from {
     opacity: 0;
